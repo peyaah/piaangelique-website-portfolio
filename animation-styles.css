@@ -1,0 +1,38 @@
+/* Header Button Animation */
+.navi-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e65c00;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navi-button:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Circle Background Animation */
+.experience-logo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #e65c00;
+}
+
+
+.underline-holder{
+  display: flex;
+  justify-content: center;
+}
+#underline{
+  width: 150px;
+    height: 5px;
+    background: #e65c00;
+    display: flex;
+}

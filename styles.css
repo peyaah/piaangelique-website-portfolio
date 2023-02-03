@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* HEAD NAVIGATION */
+
+.top-navigation{
+    background-color: aqua;
+    min-height: 50px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.logo-navigation{
+    padding: 10px 15px; 
+}
+.logo-image{
+    max-height: 45px;
+}
+.navi-container-center{
+    margin: auto;
+}
+.navi-buttons{
+    background: transparent;
+    border: none;
+    margin: 0px 20px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+}
+.navi-buttons::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E65C00;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.navi-buttons:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.hire-me-navigation{
+    padding: 15px;
+}
+.hire-nav-button{
+    width: 100px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 8px;
+    height: 35px;
+}
+
+/* HOME PAGE */
+
