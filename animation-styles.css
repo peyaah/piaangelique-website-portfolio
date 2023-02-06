@@ -20,7 +20,7 @@
 /* Circle Background Animation */
 .experience-logo{
   height: 200px;
-  width: 200px;
+  min-width: 200px;
   border-radius: 50%;
   background-color: #e65c00;
 }
