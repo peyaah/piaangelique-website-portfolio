@@ -17,6 +17,54 @@
   transform-origin: bottom left;
 }
 
+/* Project Hover */
+.length-tech-hover {
+  position: relative;
+  background-color: rgba(36, 43, 72, 0.9);
+  top: -400px;
+}
+.flip-it-hover {
+  position: relative;
+  background-color: rgb(37, 30, 66, 0.9);
+  top: -400px;
+}
+.tech-a-hover {
+  position: relative;
+  background-color: rgb(1, 1, 1, 0.9);
+  top: -400px;
+}
+
+.hover-text-box{
+  display: grid;
+  place-content: center;
+}
+.hover-text-box label{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF; 
+}
+.hover-text-box p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+.hover-text-box button{
+  background-color: transparent;
+  border: 2px solid white;
+  color: #FFFFFF;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  height: 50px;
+  width: 250px;
+  margin: auto;
+}
+
 /* Circle Background Animation */
 .experience-logo{
   height: 200px;
