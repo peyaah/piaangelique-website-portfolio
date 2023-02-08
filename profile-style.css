@@ -384,6 +384,13 @@ a{
 .contact-button-holder{
   margin: auto;
 }
+.contact-button-content{
+  display: inline-flex;
+  padding: 0px;
+}
+.contact-button-content li{
+  text-decoration: none;
+}
 .link-button{
   display: inline-grid;
   background-color: transparent;
