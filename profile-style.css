@@ -385,12 +385,18 @@ a{
   margin: auto;
 }
 .link-button{
+  display: inline-grid;
   background-color: transparent;
   border: 3px solid white;
   border-radius: 50px;
   height: 70px;
   width: 70px;
   margin: 0px 10px;
+}
+.link-button i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link-button:hover{
   background-color: #ffffff !important;
