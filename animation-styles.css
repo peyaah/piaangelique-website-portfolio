@@ -84,3 +84,8 @@
     background: #e65c00;
     display: flex;
 }
+
+/* Hover */
+.link-button:hover i{
+  color: black;
+}

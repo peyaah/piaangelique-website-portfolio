@@ -8,6 +8,9 @@ body{
 .layout{
   display: grid;
 }
+a{
+  text-decoration: none;
+}
 
 /* Header */
 .header{
@@ -57,7 +60,7 @@ body{
   background-color: black;
   display: block;
   width: auto;
-  height: 5000px;
+  height: 3700px;
 }
 
 /* HOME PAGE */
@@ -336,10 +339,66 @@ body{
   height: 300px;
 }
 
+#contact-page{
+  height: 745px;
+  display: grid;
+}
+.contact-contents{
+  display: grid;
+  place-content: center;
+}
+.contact-info-holder{
+  display: grid;
+  place-content: center;
+    
+}
+.contact-info-box{
+  display: grid;
+}
+.contact-button-holder{
+  display: inline-block;
+}
+.contact-info-box label{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin: 20px;
+}
+.email-label{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.copy-right{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+.contact-button-holder{
+  margin: auto;
+}
+.link-button{
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  margin: 0px 10px;
+}
+.link-button:hover{
+  background-color: #ffffff !important;
+}
 
 .footer{
-  background-color: yellow;
+  background-color: #E65C00;
   width: auto;
-  height: 30px;
+  height: 20px;
 }
 
